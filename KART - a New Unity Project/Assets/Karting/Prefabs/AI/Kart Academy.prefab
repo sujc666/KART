@@ -40,20 +40,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1824506452989780626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acd4977794db877439c34430f483b4f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 14e573f772d577a48a83f0330b3048f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrainingConfiguration:
-    width: 80
-    height: 80
-    qualityLevel: 1
-    timeScale: 2
-    targetFrameRate: -1
-  m_InferenceConfiguration:
-    width: 1280
-    height: 720
-    qualityLevel: 5
-    timeScale: 1
-    targetFrameRate: 60
-  resetParameters:
-    m_ResetParameters: []
