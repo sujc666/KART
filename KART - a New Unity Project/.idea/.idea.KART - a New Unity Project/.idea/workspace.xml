@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da909e89-e55f-4dc3-9fcc-180f797e6f59" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scripts/UI/LoadSceneButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scripts/UI/LoadSceneButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Tutorials/Tutorial4/Walkthrough4-020.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Tutorials/Tutorial4/Walkthrough4-020.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.connect.share/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.connect.share/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +107,7 @@
       <workItem from="1748350012905" duration="124000" />
       <workItem from="1748350430313" duration="477000" />
       <workItem from="1748350988561" duration="761000" />
+      <workItem from="1748352194141" duration="23000" />
     </task>
     <servers />
   </component>
