@@ -13,7 +13,8 @@ public class ObjectiveCompleteLaps : Objective
     public int notificationLapsRemainingThreshold = 1;
 
 
-    
+
+    [SerializeField]
     public int currentLap { get; private set; }
 
     void Awake()

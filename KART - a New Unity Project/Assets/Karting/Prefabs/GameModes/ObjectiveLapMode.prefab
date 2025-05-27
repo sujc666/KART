@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6435499550973355434}
   - component: {fileID: 6435499550973355433}
   m_Layer: 0
-  m_Name: ObjectiveCrashMode
+  m_Name: ObjectiveLapMode
   m_TagString: CrashMode
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,18 +44,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9266a736ad4804e8aa383ea677bf51fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameMode: 1
-  targetName: Pin
-  title: Knock down all Pins
-  description: Pins
+  gameMode: 2
+  targetName: Laps
+  title: Coomplete all the laps
+  description: Laps
   isOptional: 0
   delayVisible: 5
   isTimed: 1
-  totalTimeInSecs: 60
+  totalTimeInSecs: 180
   displayMessage: {fileID: 6435499550973355433}
   mustCollectAllPickups: 1
-  pickupsToCompleteObjective: 10
-  notificationPickupsRemainingThreshold: 3
+  pickupsToCompleteObjective: 2
+  notificationPickupsRemainingThreshold: 2
 --- !u!114 &6435499550973355433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4170175d245c6409bb0cb4cc7b2c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Knock down all the pins
+  message: Complete all the laps
   messagePrefab: {fileID: 11400000, guid: 4f09a4fe2b79f494cb4b65e27102ddd2, type: 2}
   delayBeforeShowing: 0
   autoDisplayOnAwake: 0
