@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da909e89-e55f-4dc3-9fcc-180f797e6f59" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/CityScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/CityScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneSwitcher.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneSwitcher/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneSwitcher/Editor/SceneSwitcherEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneSwitcher/Editor/SceneSwitcherEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneSwitcher/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneSwitcher/ReadMe.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Art/Materials/Level/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Art/Materials/Level/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/lucky/Documents/GitHub/KART/KART - a New Unity Project/Assets/Karting/Scenes/MainScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lucky/Documents/GitHub/KART/KART - a New Unity Project/Assets/Karting/Scenes/MainScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/controller.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -27,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "正在合并 main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器">
     <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.30f1c1\Editor\Unity.exe" />
@@ -111,6 +125,7 @@
       <workItem from="1748361322110" duration="7000" />
       <workItem from="1748361429774" duration="1074000" />
       <workItem from="1748605706391" duration="2459000" />
+      <workItem from="1748672533477" duration="32000" />
     </task>
     <servers />
   </component>
