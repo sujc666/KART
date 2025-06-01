@@ -1,19 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CharactorSelection : MonoBehaviour
+public class MapSelection : MonoBehaviour
 {
     [SerializeField] private Button leftButton;
     [SerializeField] private Button rightButton;
-    private int currentCharacter;
+    [SerializeField] public int currentMap; // 改为public
 
     private void Awake()
     {
-        SelectCharacter(0);
+        SelectMap(0);
     }
 
-    private void SelectCharacter(int _index)
+    private void SelectMap(int _index)
     {
+        currentMap = _index; // 确保更新currentMap
         leftButton.interactable = (_index != 0);
         rightButton.interactable = (_index != transform.childCount - 1);
 
@@ -23,10 +24,11 @@ public class CharactorSelection : MonoBehaviour
         }
     }
 
-    public void ChangeCharacter(int _change)
+    public void ChangeMap(int _change)
     {
-        currentCharacter += _change;
-        SelectCharacter(currentCharacter);
+        currentMap += _change;
+        SelectMap(currentMap);
     }
 }
+
 

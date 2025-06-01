@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Karting/Scenes/WinScene.unity
     guid: d6801f2e59f75ee4b919cf5da4e48e3b
+  - enabled: 1
+    path: Assets/Karting/Scenes/CityScene.unity
+    guid: 83ded65f31fdfc34d884708a50875d26
+  - enabled: 1
+    path: Assets/Karting/Scenes/CityScene_Checkpoint.unity
+    guid: 99b8ae6d1bff6224ab6372e5a0a2a8dc
+  - enabled: 1
+    path: Assets/Karting/Scenes/CandyScene_Lap.unity
+    guid: 47c47812f0f8df645931c10cd8e9dcdd
   m_configObjects: {}

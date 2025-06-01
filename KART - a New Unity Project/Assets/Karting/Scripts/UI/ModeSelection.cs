@@ -5,7 +5,7 @@ public class ModeSelection : MonoBehaviour
 {
     [SerializeField] private Button leftButton;
     [SerializeField] private Button rightButton;
-    private int currentMode;
+    [SerializeField] public int currentMode; // 改为public
 
     private void Awake()
     {
@@ -14,6 +14,7 @@ public class ModeSelection : MonoBehaviour
 
     private void SelectMode(int _index)
     {
+        currentMode = _index; // 确保更新currentMode
         leftButton.interactable = (_index != 0);
         rightButton.interactable = (_index != transform.childCount - 1);
 
@@ -23,9 +24,9 @@ public class ModeSelection : MonoBehaviour
         }
     }
 
-    public void ChangeMode(int _cahnge)
+    public void ChangeMode(int _change)
     {
-        currentMode += _cahnge;
+        currentMode += _change;
         SelectMode(currentMode);
     }
 }
