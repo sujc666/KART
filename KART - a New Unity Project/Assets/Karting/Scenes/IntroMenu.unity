@@ -730,9 +730,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb0be89f0d0b38469396506a9e54beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   mapSelection: {fileID: 1749779300}
   modeSelection: {fileID: 1731605085}
+  characterSelection: {fileID: 1574052440}
   mapNames:
   - CandyScene
   - CityScene
@@ -743,11 +743,6 @@ MonoBehaviour:
   SceneName: 
   currentMapName: 
   currentModeName: 
-=======
-  MapName: 
-  ModeName: 
-  SceneName: MainScene
->>>>>>> Stashed changes
 --- !u!1 &160263376
 GameObject:
   m_ObjectHideFlags: 0

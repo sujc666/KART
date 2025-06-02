@@ -6,9 +6,10 @@ namespace KartGame.UI
 {
     public class LoadSceneButton : MonoBehaviour
     {
-        [Header("场景构建配置")]
+        [Header("场景角色构建配置")]
         [SerializeField] private MapSelection mapSelection; 
-        [SerializeField] private ModeSelection modeSelection; 
+        [SerializeField] private ModeSelection modeSelection;
+        [SerializeField] private CharacterSelection characterSelection;
 
         [SerializeField] private string[] mapNames = { "CandyScene", "CityScene" };
         [SerializeField] private string[] modeNames = { "Lap", "Checkpoint", "Crash" };
@@ -69,6 +70,11 @@ namespace KartGame.UI
 
         public void LoadTargetScene()
         {
+            // 保存角色选择
+            if (characterSelection != null)
+            {
+                PlayerPrefs.SetInt("SelectedCharacter", characterSelection.GetCurrentCharacterIndex());
+            }
             string targetScene = GetTargetSceneName();
             Debug.Log($"加载场景: {targetScene}");
             SceneManager.LoadSceneAsync(targetScene);

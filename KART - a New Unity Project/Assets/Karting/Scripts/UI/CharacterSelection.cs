@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CharactorSelection : MonoBehaviour
+public class CharacterSelection : MonoBehaviour
 {
     [SerializeField] private Button leftButton;
     [SerializeField] private Button rightButton;
@@ -9,6 +9,12 @@ public class CharactorSelection : MonoBehaviour
 
     // 添加一个标志来跟踪是否已经初始化角色选择
     private bool hasInitialized = false;
+
+    //保存当前选择角色索引到PlayerPrefs
+    public int GetCurrentCharacterIndex()
+    {
+        return currentCharacter;
+    }
 
     private void Awake()
     {
@@ -40,6 +46,8 @@ public class CharactorSelection : MonoBehaviour
                 transform.GetChild(i).gameObject.SetActive(i == _index);
             }
         }
+        // 保存选择
+        PlayerPrefs.SetInt("SelectedCharacter", currentCharacter);
     }
 
     public void ChangeCharacter(int _change)
