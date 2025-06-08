@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CrashMode
+  - lose trigger
   layers:
   - Default
   - TransparentFX

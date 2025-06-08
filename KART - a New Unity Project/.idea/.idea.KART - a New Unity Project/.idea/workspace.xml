@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="da909e89-e55f-4dc3-9fcc-180f797e6f59" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KART - a New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KART - a New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Audio/MainAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Audio/MainAudioMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +22,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FadeAndLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.learn.iet-framework@1.0.1/Framework/Interactive Tutorials/Scripts/SceneObjectGUIDManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/controller.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -116,6 +122,9 @@
       <workItem from="1748672533477" duration="32000" />
       <workItem from="1749175886686" duration="1897000" />
       <workItem from="1749178900381" duration="600000" />
+      <workItem from="1749268828228" duration="1407000" />
+      <workItem from="1749355213854" duration="62000" />
+      <workItem from="1749355520643" duration="906000" />
     </task>
     <servers />
   </component>
