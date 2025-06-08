@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Karting/Scenes/IntroMenu.unity
     guid: d29260d8d84c94bd7ac95807b3da99d4
   - enabled: 1
-    path: Assets/Karting/Scenes/MainScene.unity
+    path: Assets/Karting/Scenes/CandyScene.unity
     guid: 92786e23da2af4a4f8803aaf44c47121
   - enabled: 1
     path: Assets/Karting/Scenes/LoseScene.unity
@@ -23,7 +23,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Karting/Scenes/CityScene_Checkpoint.unity
     guid: 99b8ae6d1bff6224ab6372e5a0a2a8dc
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Karting/Scenes/CandyScene_Lap.unity
-    guid: 47c47812f0f8df645931c10cd8e9dcdd
+    path: Assets/Karting/Scenes/CandyScene_Laps.unity
+    guid: 78b9d077257405041b30c8258fb96d84
+  - enabled: 1
+    path: Assets/Karting/Scenes/CandyScene_Checkpoint.unity
+    guid: 7c6ebc2d312630c49b8faf3014ba3710
+  - enabled: 1
+    path: Assets/Karting/Scenes/CandyScene_Crash.unity
+    guid: b7d107b09257a464285a4dd9dbe7f5de
+  - enabled: 1
+    path: Assets/Karting/Scenes/CityScene_Crash.unity
+    guid: e8e4497149739c2498952d90060cf04c
+  - enabled: 1
+    path: Assets/Karting/Scenes/CityScene_Laps.unity
+    guid: 71a2e8a453284314aacde34905056ad8
   m_configObjects: {}
