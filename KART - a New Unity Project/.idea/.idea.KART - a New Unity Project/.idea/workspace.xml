@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da909e89-e55f-4dc3-9fcc-180f797e6f59" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Karting/Art/Materials/GlowingParticleMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Karting/Art/Materials/GlowingParticleMaterial.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KART - a New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KART - a New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Audio/MainAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Audio/MainAudioMixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Audio/Music.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Art/PostProcessing/PostProcessVolume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Art/PostProcessing/PostProcessVolume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/CityScene_Checkpoint.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/CityScene_Checkpoint.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/CityScene_Checkpoint_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/CityScene_Checkpoint_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/IntroMenu_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/IntroMenu_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mod Assets/Kart/Bounce Effect Prefabs/BouncySparkly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mod Assets/Kart/Bounce Effect Prefabs/BouncySparkly.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mod Assets/ModResources/TrailMaterials/RainbowTrailMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mod Assets/ModResources/TrailMaterials/RainbowTrailMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +30,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/FadeAndLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.learn.iet-framework@1.0.1/Framework/Interactive Tutorials/Scripts/SceneObjectGUIDManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_Private.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lucky/Documents/GitHub/KART/KART - a New Unity Project/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lucky/Documents/GitHub/KART/KART - a New Unity Project/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/controller.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -35,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "正在合并 main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器">
     <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.30f1c1\Editor\Unity.exe" />
@@ -125,6 +132,7 @@
       <workItem from="1749268828228" duration="1407000" />
       <workItem from="1749355213854" duration="62000" />
       <workItem from="1749355520643" duration="906000" />
+      <workItem from="1749358649285" duration="520000" />
     </task>
     <servers />
   </component>
