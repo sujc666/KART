@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da909e89-e55f-4dc3-9fcc-180f797e6f59" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Karting/Art/Materials/GlowingParticleMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Karting/Art/Materials/GlowingParticleMaterial.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KART - a New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KART - a New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Art/PostProcessing/PostProcessVolume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Art/PostProcessing/PostProcessVolume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/CityScene_Checkpoint.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/CityScene_Checkpoint.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/IntroMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/CityScene_Checkpoint_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/CityScene_Checkpoint_timers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/IntroMenu_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/IntroMenu_timers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mod Assets/Kart/Bounce Effect Prefabs/BouncySparkly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mod Assets/Kart/Bounce Effect Prefabs/BouncySparkly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mod Assets/ModResources/TrailMaterials/RainbowTrailMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mod Assets/ModResources/TrailMaterials/RainbowTrailMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/CandyScene_Checkpoint.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/CandyScene_Checkpoint.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/CandyScene_Crash.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/CandyScene_Crash.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/CandyScene_Laps.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/CandyScene_Laps.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/LoseScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/LoseScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scenes/WinScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scenes/WinScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scripts/UI/LoadSceneButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scripts/UI/LoadSceneButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "正在合并 main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -133,6 +129,7 @@
       <workItem from="1749355213854" duration="62000" />
       <workItem from="1749355520643" duration="906000" />
       <workItem from="1749358649285" duration="520000" />
+      <workItem from="1749390513470" duration="976000" />
     </task>
     <servers />
   </component>

@@ -76,8 +76,21 @@ namespace KartGame.UI
                 PlayerPrefs.SetInt("SelectedCharacter", characterSelection.GetCurrentCharacterIndex());
             }
             string targetScene = GetTargetSceneName();
+            
+            // 保存当前场景名
+            /*string currentScene = SceneManager.GetActiveScene().name;*/
+            PlayerPrefs.SetString("LastPlayedScene", targetScene);
+            PlayerPrefs.Save();
+            
             Debug.Log($"加载场景: {targetScene}");
             SceneManager.LoadSceneAsync(targetScene);
+        }
+        
+        public void LoadLastPlayedScene()
+        {
+            string lastScene = PlayerPrefs.GetString("LastPlayedScene", "CandyScene_Checkpoint");
+            Debug.Log($"重玩场景: {lastScene}");
+            SceneManager.LoadSceneAsync(lastScene);
         }
     }
 }
