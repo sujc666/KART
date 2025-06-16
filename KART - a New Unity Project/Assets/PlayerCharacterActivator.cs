@@ -8,23 +8,36 @@ public class PlayerCharacterActivator : MonoBehaviour
     public int selectedIndex;
     [Tooltip("场景中的Cinemachine虚拟摄像机")]
     public CinemachineVirtualCamera virtualCamera;
+
     private void Awake()
     {
         // 读取上一个场景保存的角色索引
         selectedIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
 
-        // 遍历所有子物体，只激活选中的角色
+        // 只激活选中角色前，先全部禁用，等待一帧再激活，避免GUID冲突
         for (int i = 0; i < characterRoot.childCount; i++)
         {
-            characterRoot.GetChild(i).gameObject.SetActive(i == selectedIndex);
+            characterRoot.GetChild(i).gameObject.SetActive(false);
         }
 
-        // 设置Cinemachine虚拟摄像机的Follow和LookAt为当前激活角色
-        if (virtualCamera != null && characterRoot.childCount > selectedIndex)
+        // 延迟激活，确保Unity内部组件先完成反注册
+        StartCoroutine(ActivateSelectedCharacterNextFrame());
+    }
+
+    private System.Collections.IEnumerator ActivateSelectedCharacterNextFrame()
+    {
+        yield return null; // 等待一帧
+
+        if (selectedIndex >= 0 && selectedIndex < characterRoot.childCount)
         {
-            Transform target = characterRoot.GetChild(selectedIndex);
-            virtualCamera.Follow = target;
-            virtualCamera.LookAt = target;
+            var target = characterRoot.GetChild(selectedIndex);
+            target.gameObject.SetActive(true);
+
+            if (virtualCamera != null)
+            {
+                virtualCamera.Follow = target;
+                virtualCamera.LookAt = target;
+            }
         }
     }
 }
